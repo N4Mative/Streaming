@@ -1,0 +1,12 @@
+{
+    "namespace": "com.binarylore.entity",
+    "type": "record",
+    "name": "SessionLog",
+    "fields": [
+        {"name": "ipAddress", "type": "string"},
+        {"name": "statusCode",  "type": ["int", "null"]},
+        {"name": "requestURL", "type": ["string", "null"]},
+        {"name": "referenceURL", "type": ["string", "null"]},
+        {"name": "logTime", "type": ["string", "null"]}
+     ]
+}
